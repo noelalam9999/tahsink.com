@@ -1,7 +1,7 @@
 {
   "name": "justcamp-next",
   "homepage": "https://ci-gsc.com",
-  "description": "Global Study Contacts - Home of quality Education consultancy",
+  "description": "Tahsin Khan",
   "version": "1.0.0",
   "author": "grayic",
   "private": true,
@@ -36,6 +36,7 @@
     "react-dom": "16.13.1",
     "react-icons": "^3.11.0",
     "react-lazyload": "^3.0.0",
+    "react-pdf": "^5.7.2",
     "react-player": "^2.3.1",
     "react-range": "^1.8.11",
     "react-router-dom": "^6.2.1",

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-import imgL1Logo from "../../assets/favicon2.png";
-import imgL1LogoWhite from "../../assets/favicon2.png";
+import imgL1Logo from "../../assets/image/logo.png";
+import imgL1LogoWhite from "../../assets/image/logo.png";
 
 const Logo = ({ white, height, className = "", ...rest }) => {
   return (

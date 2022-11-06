@@ -33,119 +33,119 @@ const MyApp = ({ Component, pageProps, router }) => {
     );
   }
 
-  if (router.pathname.match(/dashboard-main/)) {
-    return (
+  // if (router.pathname.match(/dashboard-main/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "dashboard" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "dashboard" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
 
-  if (router.pathname.match(/dashboard-institutes/)) {
-    return (
+  // if (router.pathname.match(/dashboard-institutes/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "dashboard" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "dashboard" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
-  if (router.pathname.match(/dashboard-serviceproviders/)) {
-    return (
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
+  // if (router.pathname.match(/dashboard-serviceproviders/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "dashboard" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "dashboard" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
-  if (router.pathname.match(/institute-registration/)) {
-    return (
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
+  // if (router.pathname.match(/institute-registration/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "institute" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "institute" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
-  if (router.pathname.match(/student-registration/)) {
-    return (
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
+  // if (router.pathname.match(/student-registration/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "student" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "student" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
-  if (router.pathname.match(/student-dashboard/)) {
-    return (
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
+  // if (router.pathname.match(/student-dashboard/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "student" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "student" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
-  if (router.pathname.match(/agent-dashboard/)) {
-    return (
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
+  // if (router.pathname.match(/agent-dashboard/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "agent" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "agent" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
-  if (router.pathname.match(/team/)) {
-    return (
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
+  // if (router.pathname.match(/team/)) {
+  //   return (
 
-      <GlobalProvider>
-           <AuthUserProvider>
-        <Layout pageContext={{ layout: "team" }}>
+  //     <GlobalProvider>
+  //          <AuthUserProvider>
+  //       <Layout pageContext={{ layout: "team" }}>
      
-          <Component {...pageProps} />
+  //         <Component {...pageProps} />
         
-        </Layout>
-        </AuthUserProvider>
-      </GlobalProvider>
-    );
-  }
+  //       </Layout>
+  //       </AuthUserProvider>
+  //     </GlobalProvider>
+  //   );
+  // }
   return (
     
     <GlobalProvider>

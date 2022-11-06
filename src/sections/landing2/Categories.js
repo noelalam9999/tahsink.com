@@ -5,133 +5,261 @@ const Categories = () => {
   return (
     <>
       {/* <!-- Categories Area -->  */}
-      <div  className="pb-13 pb-lg-25 bg-gradient-2">
+      <div  className="pb-3 pb-lg-9 bg-gradient-2">
         <div className="container">
-          <hr className="pt-13 pt-lg-20" />
+          <hr className="pt-15 pt-lg-15" />
           {/* <!-- Section Top --> */}
           <div className="row align-items-center justify-content-center">
             {/* <!-- Section Title --> */}
-            <div  className="col-12 col-xl-6 col-lg-7 col-md-9">
-              <div className="text-center mb-12 mb-lg-17">
-                <h2 className="font-size-10 font-weight-bold mb-8">
-                  We provide Services to four groups
-                </h2>
-                <p className="font-size-5 px-5 px-lg-7 px-xl-9 px-xxl-15 mb-6">
-                  Leveraging our 30years of contacts we specialise in connecting the right people at the right time
+            <div  className="col-12 col-xl-9 col-lg-7 col-md-9">
+              <div className="text-center mb-12 mb-lg-7">
+                <h1 className="font-size-8 font-weight-bold mb-3">
+                Hello and welcome to my personal website!
+                </h1>
+             
+                <p className="font-size-4 px-5 px-lg-7 px-xl-9 px-xxl-15 mb-3">
+                My name is Tahsin Khan and I am a Teaching Associate at the School of Computer Science and a Doctoral Researcher in the Faculty of Engineer, at University of Nottingham. This site serves as a hub of resources related to my professional activities.
+
                 </p>
-              </div>
-            </div>
-          </div>
-          {/* <!-- End Section Top --> */}
-          <div
-            className="row justify-content-center"
-            data-aos="fade-right"
-            data-aos-duration="800"
-          >
-            {/* <!-- Single Category --> */}
-            <div className="col-12 col-xl-3 col-lg-4 col-sm-6 col-xs-8">
-              <Link href="/students">
-                <a className="bg-white border border-color-2 rounded-4 pl-5 pt-10 pb-3 px-2 hover-shadow-2 mb-9 d-block w-100 text-center">
-                  <div className="text-white bg-blue square-70 rounded-4 mb-7 font-size-7 text-center mx-auto">
-                  <img height="100px" src="https://res.cloudinary.com/american-international-university-bangladesh/image/upload/v1627252639/icon_1_q6v9fb.svg"/>
-                  </div>
-                  {/* <!-- Category Content --> */}
-                  <div className="">
-                    <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Students
-                    </h5>
-                    <p className="font-size-4 font-weight-normal text-gray">
-                      <span>20,000</span> Enrolled
-                    </p>
-                  </div>
-                </a>
-              </Link>
-            </div>
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
-            <div className="col-12 col-xl-3 col-lg-4 col-sm-6 col-xs-8">
-              <Link href="/institutes">
-                <a className="bg-white border border-color-2 rounded-4 pl-5 pt-10 pb-3 px-2 hover-shadow-2 mb-9 d-block w-100 text-center">
-                  <div className="text-white bg-spray square-70 rounded-4 mb-7 font-size-7 text-center mx-auto">
-                  <img height="110px" src="https://res.cloudinary.com/american-international-university-bangladesh/image/upload/v1627252639/icon_2_x3hthy.svg"/>
-                  </div>
-                  {/* <!-- Category Content --> */}
-                  <div className="">
-                    <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Institutes
-                    </h5>
-                    <p className="font-size-4 font-weight-normal text-gray">
-                      <span>200+</span> Affiliations
-                    </p>
-                  </div>
-                </a>
-              </Link>
-            </div>
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
-            <div className="col-12 col-xl-3 col-lg-4 col-sm-6 col-xs-8">
-              <Link href="/agents">
-                <a className="bg-white border border-color-2 rounded-4 pl-5 pt-10 pb-3 px-2 hover-shadow-2 mb-9 d-block w-100 text-center">
-                  <div className="text-white bg-coral square-70 rounded-4 mb-7 font-size-7 text-center mx-auto">
-                  <img height="110px" src="https://res.cloudinary.com/american-international-university-bangladesh/image/upload/v1627252639/icon_3_boelcg.svg"/>
-                  </div>
-                  {/* <!-- Category Content --> */}
-                  <div className="">
-                    <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Agents
-                    </h5>
-                    <p className="font-size-4 font-weight-normal text-gray">
-                      <span>100+</span> in Network
-                    </p>
-                  </div>
-                </a>
-              </Link>
-            </div>
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
-            <div className="col-12 col-xl-3 col-lg-4 col-sm-6 col-xs-8">
-              <Link href="/#">
-                <a className="bg-white border border-color-2 rounded-4 pl-5 pt-10 pb-3 px-2 hover-shadow-2 mb-9 d-block w-100 text-center">
-                  <div className="text-white bg-red square-70 rounded-4 mb-7 font-size-7 text-center mx-auto">
-                  <img height="110px" src="https://res.cloudinary.com/american-international-university-bangladesh/image/upload/v1627252639/iconv_5_kl6l6s.svg"/>
-                  </div>
-                  {/* <!-- Category Content --> */}
-                  <div className="">
-                    <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Service Provider
-                    </h5>
-                    <p className="font-size-4 font-weight-normal text-gray">
-                      <span>20+</span> Industries
-                    </p>
-                  </div>
-                </a>
-              </Link>
-            </div>
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
-        
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
-        
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
-        
-            {/* <!-- End Single Category --> */}
-            {/* <!-- Single Category --> */}
+                {/* <p className="font-size-4 mb-8">
+                          <a target="_blank" href="https://ci-gsc.com/media/post_images/Research_Overview.pdf" className={`btn btn-primary text-uppercase font-size-3`}>
+                  Research Overview</a>   
+                  <a style={{marginLeft:"10px",marginRight:"10px"}}  target="_blank" href="https://ci-gsc.com/media/post_images/CV_Tahsinur_Khan.pdf" className={`btn btn-primary text-uppercase font-size-3`}>
+                 Curriculum Vitae</a> 
+               
+             </p> */}
          
-            {/* <!-- End Single Category --> */}
-          </div>
-          {/* <div className="row">
-            <div className="col-12">
-              <div className="text-center pt-5 pt-lg-13">
-                <Link href="/#">
-                  <a className="btn btn-outline-black-2 btn-lg text-uppercase">
-                    Explore All
-                  </a>
-                </Link>
+           
               </div>
             </div>
-          </div> */}
+          </div>
+          <div
+            className="row justify-content-center "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-11 mb-9">
+            
+              <div className="pt-3 px-xl-9 px-lg-7 px-7 pb-7 light-mode-texts bg-white rounded hover-shadow-3">
+                <div className="media align-items-center">
+                
+                  <div>
+             
+                    <h3 className="font-size-6 mb-0">
+                      <Link href="/about">
+                        <a className="heading-default-color font-weight-semibold">
+                     About me
+                        </a>
+                      </Link>
+                    </h3>
+                    <p className="font-size-3  ">
+                    Professional summary & Curriculum Vitae
+                </p>
+                  </div>
+                </div>
+                <div className="d-flex pt-3">
+                  <ul className="list-unstyled mb-1 d-flex flex-wrap">
+                    <li>
+                      <Link href="/about">
+                        <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3 min-width-px-100 px-3 flex-all-center mr-6 h-px-33 mt-4">
+                      
+                          Read More
+                        
+                        </a>
+                      </Link>
+                    </li>
+          
+                  </ul>
+                
+                </div>
+              </div>
+          
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-11 mb-9">
+              {/* <!-- Single Featured Job --> */}
+              <div className="pt-3 px-xl-9 px-lg-7 px-7 pb-7 light-mode-texts bg-white rounded hover-shadow-3">
+                <div className="media align-items-center">
+                
+                  <div>
+                   
+                    <h3 className="font-size-6 mb-0">
+                      <Link href="teaching">
+                        <a className="heading-default-color font-weight-semibold">
+                    Teaching
+                        </a>
+                      </Link>
+                    </h3>
+                    <p className="font-size-3  ">
+                    My teaching activities
+                </p>
+                  </div>
+                </div>
+                <div className="d-flex pt-3">
+                  <ul className="list-unstyled mb-1 d-flex flex-wrap">
+                    <li>
+                      <Link href="/teaching">
+                        <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3 min-width-px-100 px-3 flex-all-center mr-6 h-px-33 mt-4">
+                        
+                          Read More
+                        </a>
+                      </Link>
+                    </li>
+          
+                  </ul>
+                
+                </div>
+              </div>
+              {/* <!-- End Single Featured Job --> */}
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-11 mb-9">
+              {/* <!-- Single Featured Job --> */}
+              <div className="pt-3 px-xl-9 px-lg-7 px-7 pb-7 light-mode-texts bg-white rounded hover-shadow-3">
+                <div className="media align-items-center">
+                
+                  <div>
+                  
+                    <h3 className="font-size-6 mb-0">
+                      <Link href="/education">
+                        <a className="heading-default-color font-weight-semibold">
+                     Education
+                        </a>
+                      </Link>
+                    </h3>
+                    <p className="font-size-3  ">
+                    Academic Qualifications
+                </p>                  </div>
+                </div>
+                <div className="d-flex pt-3">
+                  <ul className="list-unstyled mb-1 d-flex flex-wrap">
+                    <li>
+                      <Link href="/education">
+                        <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3 min-width-px-100 px-3 flex-all-center mr-6 h-px-33 mt-4">
+                       
+                          Read More
+                        </a>
+                      </Link>
+                    </li>
+          
+                  </ul>
+                
+                </div>
+              </div>
+              {/* <!-- End Single Featured Job --> */}
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-11 mb-9">
+              {/* <!-- Single Featured Job --> */}
+              <div className="pt-3 px-xl-9 px-lg-7 px-7 pb-7 light-mode-texts bg-white rounded hover-shadow-3">
+                <div className="media align-items-center">
+                
+                  <div>
+             
+                    <h3 className="font-size-6 mb-0">
+                      <Link href="/research">
+                        <a className="heading-default-color font-weight-semibold">
+                     Research
+                        </a>
+                      </Link>
+                    </h3>
+                    <p className="font-size-3  ">
+                    My Research work
+                </p>
+                  </div>
+                </div>
+                <div className="d-flex pt-3">
+                  <ul className="list-unstyled mb-1 d-flex flex-wrap">
+                    <li>
+                      <Link href="/research">
+                        <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3 min-width-px-100 px-3 flex-all-center mr-6 h-px-33 mt-4">
+                        
+                          Read More
+                        </a>
+                      </Link>
+                    </li>
+          
+                  </ul>
+                
+                </div>
+              </div>
+              {/* <!-- End Single Featured Job --> */}
+            </div>
+
+           
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-11 mb-9">
+              {/* <!-- Single Featured Job --> */}
+              <div className="pt-3 px-xl-9 px-lg-7 px-7 pb-7 light-mode-texts bg-white rounded hover-shadow-3">
+                <div className="media align-items-center">
+                
+                  <div>
+               
+                    <h3 className="font-size-6 mb-0">
+                      <Link href="/technical">
+                        <a className="heading-default-color font-weight-semibold">
+                     Technical Skills and Projects
+                        </a>
+                      </Link>
+                    </h3>
+                    <p className="font-size-3  ">
+                    List of my technical skills and portfolio of projects
+                </p>
+                  </div>
+                </div>
+                <div className="d-flex pt-3">
+                  <ul className="list-unstyled mb-1 d-flex flex-wrap">
+                    <li>
+                      <Link href="/technical">
+                        <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3 min-width-px-100 px-3 flex-all-center mr-6 h-px-33 mt-4">
+                      
+                          Read More
+                        </a>
+                      </Link>
+                    </li>
+          
+                  </ul>
+                
+                </div>
+              </div>
+              {/* <!-- End Single Featured Job --> */}
+            </div>
+            
+           
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-11 mb-9">
+              {/* <!-- Single Featured Job --> */}
+              <div className="pt-3 px-xl-9 px-lg-7 px-7 pb-7 light-mode-texts bg-white rounded hover-shadow-3">
+                <div className="media align-items-center">
+                
+                  <div>
+                
+                    <h3 className="font-size-6 mb-0">
+                      <Link href="/outreach-activities">
+                        <a className="heading-default-color font-weight-semibold">
+                     Outreach Activities
+                        </a>
+                      </Link>
+                    </h3>
+                    <p className="font-size-3">
+                   Leadership & Volunteering
+                </p>
+                  </div>
+                </div>
+                <div className="d-flex pt-3">
+                  <ul className="list-unstyled mb-1 d-flex flex-wrap">
+                    <li>
+                      <Link href="/outreach-activities">
+                        <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3 min-width-px-100 px-3 flex-all-center mr-6 h-px-33 mt-4">
+                       
+                          Read More
+                        </a>
+                      </Link>
+                    </li>
+          
+                  </ul>
+                
+                </div>
+              </div>
+              {/* <!-- End Single Featured Job --> */}
+            </div>
+          </div>
+    
         </div>
       </div>
     </>

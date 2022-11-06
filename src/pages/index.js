@@ -16,12 +16,9 @@ const IndexPage = () => {
           bgClass: "dynamic-sticky-bg",
         }}
       >
-        <Hero />
-        <Brands />
+        
         <Categories />
-        <Content1 />
-        <FeaturedJobs />
-        <Content2 />
+      
       </PageWrapper>
     </>
   );

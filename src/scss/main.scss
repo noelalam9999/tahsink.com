@@ -270,4 +270,11 @@ display:block;
     opacity: 1;
   }
 }
+.fix-footer{
+  position: absolute;
+  left: 0!important;
+  bottom: 0!important;
+  right: 0!important;
+  width: 100%!important
+}
 
