@@ -11,13 +11,30 @@ const Categories = () => {
           {/* <!-- Section Top --> */}
           <div className="row align-items-center justify-content-center">
             {/* <!-- Section Title --> */}
-            <div  className="col-12 col-xl-9 col-lg-7 col-md-9">
+            <div  className="col-12 col-xl-3 col-lg-7 col-md-9">
               <div className="text-center mb-12 mb-lg-7">
+                <img width="200px" src="https://res.cloudinary.com/dl2tsdbcf/image/upload/v1668442909/profile_pic_tbxe6e.png"/>
+             
+               
+                {/* <p className="font-size-4 mb-8">
+                          <a target="_blank" href="https://ci-gsc.com/media/post_images/Research_Overview.pdf" className={`btn btn-primary text-uppercase font-size-3`}>
+                  Research Overview</a>   
+                  <a style={{marginLeft:"10px",marginRight:"10px"}}  target="_blank" href="https://ci-gsc.com/media/post_images/CV_Tahsinur_Khan.pdf" className={`btn btn-primary text-uppercase font-size-3`}>
+                 Curriculum Vitae</a> 
+               
+             </p> */}
+         
+           
+              </div>
+            </div>
+
+            <div  className="col-12 col-xl-6 col-lg-7 col-md-9">
+              <div className="text-left mb-12 mb-lg-7">
                 <h1 className="font-size-8 font-weight-bold mb-3">
-                Hello and welcome to my personal website!
+                Hi, I am Tahsin!
                 </h1>
              
-                <p className="font-size-4 px-5 px-lg-7 px-xl-9 px-xxl-15 mb-3">
+                <p className="font-size-4 px-1 px-lg-1 px-xl-1 px-xxl-1 mb-3">
                 My name is Tahsin Khan and I am a Teaching Associate at the School of Computer Science and a Doctoral Researcher in the Faculty of Engineer, at University of Nottingham. This site serves as a hub of resources related to my professional activities.
 
                 </p>

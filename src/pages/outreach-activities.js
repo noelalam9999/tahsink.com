@@ -110,7 +110,7 @@ const CandidateProfile = () => {
                         {/* <!-- Card Section Start --> */}
                         <div className="border-top pr-xl-0 pr-xxl-14 p-5 pl-xs-12 pt-7 pb-5">
                           <h4 className="font-size-6 mb-3 mt-5 text-black-2 font-weight-semibold">
-                          Resident Tutor<br/>
+                          
                           Academic Seminar Co-Convenor <br/>
                           Nottingham Geospatial Institute
                           </h4>
@@ -131,6 +131,7 @@ const CandidateProfile = () => {
                         {/* <!-- Card Section Start --> */}
                         <div className="border-top pr-xl-0 pr-xxl-14 p-5 pl-xs-12 pt-7 pb-5">
                           <h4 className="font-size-6 mb-3 mt-5 text-black-2 font-weight-semibold">
+                          Resident Tutor<br/>
                           Lenton and Wortley Hall <br/>
                           University of Nottingham 
                           </h4>
