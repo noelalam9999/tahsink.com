@@ -90,13 +90,16 @@ const CandidateProfile = () => {
                       
                         </div> */}
                          <div className="border-top pr-xl-0 pr-xxl-14 p-5 pl-xs-12 pt-7 pb-5">
-                          <h4 className="font-size-6 mb-7 mt-5 text-black-2 font-weight-semibold">
+                          <h4 className="font-size-6 mb-4 mt-5 font-weight-semibold">
                           Committee member
-
+                          School of Computer Science,<br/> University of Nottingham
                           </h4>
-                          <p className="font-size-4 mb-8">
-                          School of Computer Science, University of Nottingham<br/>
+                          <p className="font-size-4 mb-4 font-weight-semibold">
+                          
                           September 2022 – Present<br/>
+                          </p>
+
+                          <p className="font-size-4 mb-8">
                           • Serve in Student Employability and Equality, Diversity and Inclusion (EDI) committees <br/>
                           • Focus on  developing a comprehensive university-wide framework to provide tailored academic, pastoral and employment support for neurodivergent students.<br/>
                           
@@ -106,11 +109,13 @@ const CandidateProfile = () => {
                         {/* <!-- Skills End --> */}
                         {/* <!-- Card Section Start --> */}
                         <div className="border-top pr-xl-0 pr-xxl-14 p-5 pl-xs-12 pt-7 pb-5">
-                          <h4 className="font-size-6 mb-7 mt-5 text-black-2 font-weight-semibold">
+                          <h4 className="font-size-6 mb-3 mt-5 text-black-2 font-weight-semibold">
+                          Resident Tutor<br/>
                           Academic Seminar Co-Convenor <br/>
-                          Nottingham Geospatial Institute <br/>July 2020 – January 2022
-
-
+                          Nottingham Geospatial Institute
+                          </h4>
+                          <h4 className="font-size-4 mb-7 mt-5 text-black-2 font-weight-semibold">
+                       July 2020 – January 2022
                           </h4>
                           <p className="font-size-4 mb-8">
                           • Host bi-weekly talks from researchers and academics on geospatial research<br/>
@@ -119,28 +124,29 @@ const CandidateProfile = () => {
                           <br/>
                           • Resident Tutor University of Nottingham
                           <br/>
-
-
                           </p>
                       
                         </div>
                         {/* <!-- Card Section End --> */}
                         {/* <!-- Card Section Start --> */}
                         <div className="border-top pr-xl-0 pr-xxl-14 p-5 pl-xs-12 pt-7 pb-5">
-                          <h4 className="font-size-6 mb-7 mt-5 text-black-2 font-weight-semibold">
+                          <h4 className="font-size-6 mb-3 mt-5 text-black-2 font-weight-semibold">
                           Lenton and Wortley Hall <br/>
-                          University of Nottingham <br/>
+                          University of Nottingham 
+                          </h4>
+                          <h4 className="font-size-4 mb-7 mt-5 text-black-2 font-weight-semibold">
+                   
                           Nov 2018 – Aug 2022
                           </h4>
                           <p className="font-size-4 mb-8">
                           •  Provided pastoral care support to first year undergraduate students for three academic years
-<br/>
-• Organized activities such as formal dinners, sports events, quizzes and game nights.
-<br/>
-• Implemented University of Nottingham Residence Halls polices and help maintain pleasant social
-atmosphere at Lenton & Wortley Hall
-<br/>
-{/* • Served as Senior Resident Tutor from October 2020 to August 2021 */}
+                          <br/>
+                          • Organized activities such as formal dinners, sports events, quizzes and game nights.
+                          <br/>
+                          • Implemented University of Nottingham Residence Halls polices and help maintain pleasant social
+                          atmosphere at Lenton & Wortley Hall
+                          <br/>
+                          {/* • Served as Senior Resident Tutor from October 2020 to August 2021 */}
 
                           </p>
                       

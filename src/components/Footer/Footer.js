@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="pt-6 pt-lg-5 pb-2 pb-lg-7 border-bottom border-width-1 border-default-color-2">
             <div className="row justify-content-center ">
               <div
-                className="col-xl-7 col-lg-12"
+                className="col-xl-2 col-lg-12"
              
               >
                 {/* <!-- cta-content start --> */}

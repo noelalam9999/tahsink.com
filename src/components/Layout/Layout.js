@@ -5,18 +5,9 @@ import Helmet from "next/head";
 import AOS from "aos";
 
 import Header from "../Header";
-import Header2 from "../Header/HeaderProfile";
-import HeaderAgent from "../Header/HeaderProfileAgent";
-import HeaderStudent from "../Header/HeaderProfileStudent";
-import HeaderUni from "../Header/HeaderProfileUni";
-import HeaderTeamMember from "../Header/HeaderTeamMember";
+
 import Footer from "../Footer";
 
-
-import SidebarDashboard from "../SidebarDashboard";
-import SidebarDashboardStudent from "../SidebarDashboard/SidebarDashboardStudent";
-import SidebarDashboardAgent from "../SidebarDashboard/SidebarDashboardAgent";
-import SidebarDashboardInstitute from "../SidebarDashboard/SidebarDashboardInstitute";
 import ModalVideo from "../ModalVideo";
 import ModalApplication from "../ModalApplication";
 import ModalSignIn from "../ModalSignIn";

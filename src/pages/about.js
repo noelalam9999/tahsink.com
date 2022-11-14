@@ -78,9 +78,9 @@ const CandidateProfile = () => {
                           As a potential member of the department I would be willing to collaborate with fellow staff members to,
                           </p>
                           <ul className="font-size-4 mb-7 mt-5 text-black">
-                              <li>Design and deliver high-quality CS educational content,</li>
-                              <li>Develop engaging outreach activities,</li>
-                              <li>Provide pastoral support to students,</li>
+                              <li>Design and deliver high-quality CS educational content</li>
+                              <li>Develop engaging outreach activities</li>
+                              <li>Provide pastoral support to students</li>
                               <li>Help with students’ personal development</li>
                               <li>Explore options to maintain and grow collaboration between industry and academia for research and student placement
 </li>
